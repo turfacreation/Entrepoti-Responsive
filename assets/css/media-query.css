@@ -1,0 +1,154 @@
+/* break point 776px */
+@media screen and (max-width: 776px) {
+  .nav-toggle {
+    display: block;
+  }
+  .nav-link,
+  .primary-btn-contact {
+    display: none;
+  }
+  .hero-wrapper {
+    flex-direction: column-reverse;
+  }
+  .hero-content {
+    text-align: center;
+  }
+  .hero-content h1 {
+    font-size: 5rem;
+  }
+  .hero-primary-btn {
+    width: 90%;
+    border-radius: 3px;
+  }
+
+  /* service area */
+  .services-wrapper {
+    padding-block: 110px;
+  }
+  .services-area-card {
+    width: 40%;
+  }
+
+  /* project */
+  .project-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .project-one,
+  .project-four {
+    max-width: 100%;
+  }
+  /* countdown */
+  .countdown-wrapper {
+    gap: 20px;
+  }
+  .countdown-steps-area {
+    width: 40%;
+  }
+  /* testimonial */
+
+  .testimonial-wrapper {
+    padding-block: 110px;
+  }
+  .testimonial-area {
+    gap: 70px;
+  }
+  .testimonial-area-card {
+    width: 40%;
+  }
+}
+
+/* break 700 */
+@media screen and (max-width: 700px) {
+  .form-wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .formarea {
+    padding-bottom: 90px;
+  }
+  .form-input {
+    padding: 10px 120px;
+  }
+  textarea {
+    padding: 10px 90px;
+  }
+
+  .form-right h2 {
+    text-align: center;
+  }
+  .form-right p {
+    text-align: center;
+  }
+
+  .main-footer-wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .main-footer-right {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+/* break point 469px */
+@media screen and (max-width: 479px) {
+  /* hero part */
+  .hero-content h1 {
+    font-size: 4rem;
+  }
+  /* project */
+  .project-heading {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  .all-project-left,
+  .all-project-right {
+    flex-direction: column;
+  }
+
+  .project-heading-left h2 {
+    font-size: 3.5rem;
+  }
+  .project-three {
+    margin-top: 130px;
+  }
+  /* service area */
+  .services-wrapper {
+    padding-block: 110px;
+    flex-direction: column;
+  }
+  .services-area-card {
+    width: 100%;
+  }
+  /* countdown */
+  .countdown-wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .countdown-steps-area {
+    width: 100%;
+  }
+  .testimonial-area {
+    flex-direction: column;
+    gap: 70px;
+  }
+  .testimonial-area-card {
+    width: 100%;
+  }
+  /* footer part */
+  .main-footer-right {
+    /* width: 100%; */
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .footer-right-area {
+    flex-direction: column;
+    align-items: center;
+  }
+}
